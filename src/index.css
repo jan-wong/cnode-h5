@@ -1,0 +1,86 @@
+body {
+  margin: 0;
+  font-family: 'Source Sans Pro', 'Helvetica Neue', Arial, sans-serif;
+}
+
+a {
+  text-decoration: none;
+  color: #80bd01;
+}
+
+ul {
+  margin: 0;
+  padding:0;
+}
+
+li {
+  list-style-type: none;
+}
+
+a:hover {
+  color: #08c;
+}
+
+@font-face {font-family: "iconfont";
+  src: url('./iconfont/iconfont.eot?t=1490150969087'); /* IE9*/
+  src: url('./iconfont/iconfont.eot?t=1490150969087#iefix') format('embedded-opentype'), /* IE6-IE8 */
+  url('./iconfont/iconfont.woff?t=1490150969087') format('woff'), /* chrome, firefox */
+  url('./iconfont/iconfont.ttf?t=1490150969087') format('truetype'), /* chrome, firefox, opera, Safari, Android, iOS 4.2+*/
+  url('./iconfont/iconfont.svg?t=1490150969087#iconfont') format('svg'); /* iOS 4.1- */
+}
+
+.icon {
+  font-family:"iconfont" !important;
+  font-size:16px;
+  font-style:normal;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-praise:before { content: "\e67b"; }
+
+.container {
+  padding: 8px;
+  padding-top: 15px;
+}
+
+.title {
+  font-size: 18px;
+  font-weight: bold;
+  line-height: 1.5em;
+}
+
+.des {
+  font-size: 12px;
+  color: #999;
+  line-height: 2.5em;
+}
+
+.reply-list {
+  padding: 10px 0;
+  border-top: 1px solid #ccc;
+}
+
+.reply-title {
+  position: relative;
+  height: 30px;
+  font-size: 14px;
+}
+
+.reply-img {
+  width: 30px;
+  height: 30px;
+  vertical-align: middle;
+  margin-right: 5px;
+}
+
+.reply-name, .reply-floor {
+  vertical-align: middle;
+  margin-right: 5px;
+}
+
+.reply-praise {
+  position: absolute;
+  right: 0;
+  top: 8px;
+}

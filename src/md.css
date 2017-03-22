@@ -1,0 +1,130 @@
+.markdown-text {
+  color: #3a4554;
+  font-size: 14px;
+  font-family: 'Source Sans Pro', 'Helvetica Neue', Arial, sans-serif;
+  line-height: 1.7em;
+}
+.markdown-text h1,
+.markdown-text h2,
+.markdown-text h3,
+.markdown-text h4,
+.markdown-text h5,
+.markdown-text h6 {
+  position: relative;
+  color: #1d2023;
+  font-weight: normal;
+}
+.markdown-text h1 {
+  font-size: 16px;
+  margin: 20px;
+}
+.markdown-text h2 {
+  font-size: 14px;
+  margin: 15px 0;
+}
+.markdown-text h3 {
+  font-size: 14px;
+  margin: 12px 0;
+}
+.markdown-text h4 {
+  font-size: 14px;
+  margin: 10px 0;
+}
+.markdown-text blockquote {
+  padding: 0 15px;
+  color: #333;
+  border-left: 4px solid #80bd01;
+  margin: 0;
+  background: #ebefe2;
+}
+.markdown-text blockquote > :first-child {
+  margin-top: 0;
+}
+.markdown-text blockquote > :last-child {
+  margin-bottom: 0;
+}
+.markdown-text .hr {
+  height: 1px;
+  width: 100%;
+  background-color: #efefef;
+  margin: 20px 0;
+}
+.markdown-text p {
+  margin: 1em 0;
+  line-height: 1.6em;
+  word-spacing: 0.05em;
+}
+.markdown-text img {
+  max-width: 100%;
+}
+.markdown-text strong {
+  font-weight: bold;
+}
+.markdown-text .fluid-images {
+  display: block;
+  max-width: 100%;
+  margin: 20px auto;
+}
+.markdown-text ul,
+.markdown-text ol {
+  padding-left: 1.25em;
+  line-height: 1.4em;
+}
+.markdown-text ul li,
+.markdown-text ol li {
+  line-height: 1.6;
+  margin: 8px 0;
+}
+.markdown-text ul li p,
+.markdown-text ol li p {
+  margin: .6em 0;
+}
+.markdown-text ul li {
+  list-style-type: disc;
+}
+.markdown-text ol li {
+  list-style-type: decimal;
+}
+.markdown-text pre {
+  font-family: Consolas, "Liberation Mono", Menlo, Courier, monospace;
+  padding: .8em 0.4em;
+  overflow: auto;
+  font-size: .8em;
+  line-height: 1.5em;
+  background-color: #f1f4f7;
+  border-radius: 3px;
+  margin: 1em 0;
+}
+.markdown-text pre code {
+  border-radius: 0;
+  background-color: transparent;
+  font-size: 100%;
+  padding: 0;
+  color: #3a4554;
+  white-space: pre;
+}
+.markdown-text code {
+  font-family: Consolas, "Liberation Mono", Menlo, Courier, monospace;
+  margin: 0 .3em;
+  padding: .3em;
+  font-size: 85%;
+  background-color: #f1f4f7;
+  border-radius: 3px;
+  color: #dd1144;
+  white-space: nowrap;
+}
+.markdown-text table {
+  width: 100%;
+  margin: 10px 0;
+  border-collapse: collapse;
+}
+.markdown-text table > thead > tr > th,
+.markdown-text table > tbody > tr > td {
+  padding: 10px 15px;
+  border: 1px solid #dddddd;
+}
+.markdown-text table > thead > tr > th {
+  color: #000000;
+  font-weight: bold;
+  background-color: #fbfbfb;
+}
