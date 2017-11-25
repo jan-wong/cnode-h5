@@ -4,6 +4,10 @@
   font-family: 'Source Sans Pro', 'Helvetica Neue', Arial, sans-serif;
   line-height: 1.7em;
 }
+.markdown-text a {
+  word-wrap: break-word; 
+  word-break: normal; 
+}
 .markdown-text h1,
 .markdown-text h2,
 .markdown-text h3,
